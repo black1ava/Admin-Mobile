@@ -1,0 +1,61 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/KantumruyPro-Bold.ttf",
+      "sha1": "30f9b1e140eeeca9d25b4071011d9fd65a5dc603"
+    },
+    {
+      "path": "assets/fonts/KantumruyPro-BoldItalic.ttf",
+      "sha1": "d61ca68f0c70d7c31fdd4b677d8d0ec56171a628"
+    },
+    {
+      "path": "assets/fonts/KantumruyPro-ExtraLight.ttf",
+      "sha1": "c406600baee25d5c1eb30ffdb66e02a4121e5630"
+    },
+    {
+      "path": "assets/fonts/KantumruyPro-ExtraLightItalic.ttf",
+      "sha1": "85d4d44ef20fb4be8732514d97cc6c6c72ca944f"
+    },
+    {
+      "path": "assets/fonts/KantumruyPro-Italic.ttf",
+      "sha1": "dad01caae938c7d9dea4e0dee8e76d343ec914ad"
+    },
+    {
+      "path": "assets/fonts/KantumruyPro-Light.ttf",
+      "sha1": "27073c5ef950ad87b1f40e761c87412e713ecf77"
+    },
+    {
+      "path": "assets/fonts/KantumruyPro-LightItalic.ttf",
+      "sha1": "2f33572cb4deeea87562bb990d094a6f06faa477"
+    },
+    {
+      "path": "assets/fonts/KantumruyPro-Medium.ttf",
+      "sha1": "a3ffb240a403ba46dc1d1b20139ae57cfd0f7577"
+    },
+    {
+      "path": "assets/fonts/KantumruyPro-MediumItalic.ttf",
+      "sha1": "ba74bea0b90313a3acb3e9718221f92b7fa55ec3"
+    },
+    {
+      "path": "assets/fonts/KantumruyPro-Regular.ttf",
+      "sha1": "fc6bc7262793be9453195119ee1ce8d38817fae8"
+    },
+    {
+      "path": "assets/fonts/KantumruyPro-SemiBold.ttf",
+      "sha1": "146c30f177385939be979b77befed4b539a24360"
+    },
+    {
+      "path": "assets/fonts/KantumruyPro-SemiBoldItalic.ttf",
+      "sha1": "e5e24654fa1d26003af48a1fe670c435ba818a82"
+    },
+    {
+      "path": "assets/fonts/KantumruyPro-Thin.ttf",
+      "sha1": "0b005f41e3ab07ee866d482c1c79774b65529cdf"
+    },
+    {
+      "path": "assets/fonts/KantumruyPro-ThinItalic.ttf",
+      "sha1": "c8d8d1b7a16729e77909903d6cb4400385d73dc5"
+    }
+  ]
+}

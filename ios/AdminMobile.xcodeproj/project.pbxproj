@@ -14,6 +14,20 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-AdminMobile-AdminMobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-AdminMobile-AdminMobileTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		AC57DDE1800745B887BA6AD9 /* KantumruyPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99494481F6B54DE2B3EF8E1B /* KantumruyPro-Bold.ttf */; };
+		D3BD3494F29E4047BD4ADF61 /* KantumruyPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88E1CC304F3E4B7D8C192988 /* KantumruyPro-BoldItalic.ttf */; };
+		BF0A55B630054101BB1644D9 /* KantumruyPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8529EEC60ED4415CAE6747AF /* KantumruyPro-ExtraLight.ttf */; };
+		6F3FD057908C49FFB93BCA9B /* KantumruyPro-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 668400184579422183D62BFF /* KantumruyPro-ExtraLightItalic.ttf */; };
+		DD85B6499401493A8ACC581A /* KantumruyPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8556A5ACD2E4AF29AF5F684 /* KantumruyPro-Italic.ttf */; };
+		617A66760BB84807AAF3D164 /* KantumruyPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 305F5174BA95469EBD06F12B /* KantumruyPro-Light.ttf */; };
+		0A62457ED00E4A09995A6103 /* KantumruyPro-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22FF752197ED41C7877210C1 /* KantumruyPro-LightItalic.ttf */; };
+		B40017C7FF5C4EE1B4ED0D8C /* KantumruyPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 890514E529DC4A81905F349D /* KantumruyPro-Medium.ttf */; };
+		442292A30F49415490F5AADF /* KantumruyPro-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7FA8D54E8D44557A73FABC7 /* KantumruyPro-MediumItalic.ttf */; };
+		4A8096993FA24DD1A36AAD45 /* KantumruyPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02377EE7678D41FA9997F0E7 /* KantumruyPro-Regular.ttf */; };
+		2A7E5E9CAD4D44F586206FA9 /* KantumruyPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2349A38ED41849DE9D8188F0 /* KantumruyPro-SemiBold.ttf */; };
+		C11C27EE0BAB4AC99397B591 /* KantumruyPro-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC7CEC708DD4E2795BA0211 /* KantumruyPro-SemiBoldItalic.ttf */; };
+		931B7E8300F44935A900EC9F /* KantumruyPro-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7B80EA236C3474DBB2F90DA /* KantumruyPro-Thin.ttf */; };
+		436D5FE09D77439CAE7FB27B /* KantumruyPro-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60519A05A4A74CFA8CE01249 /* KantumruyPro-ThinItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +58,20 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AdminMobile/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-AdminMobile-AdminMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdminMobile-AdminMobileTests.release.xcconfig"; path = "Target Support Files/Pods-AdminMobile-AdminMobileTests/Pods-AdminMobile-AdminMobileTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		99494481F6B54DE2B3EF8E1B /* KantumruyPro-Bold.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-Bold.ttf"; path = "../assets/fonts/KantumruyPro-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		88E1CC304F3E4B7D8C192988 /* KantumruyPro-BoldItalic.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-BoldItalic.ttf"; path = "../assets/fonts/KantumruyPro-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8529EEC60ED4415CAE6747AF /* KantumruyPro-ExtraLight.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-ExtraLight.ttf"; path = "../assets/fonts/KantumruyPro-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		668400184579422183D62BFF /* KantumruyPro-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-ExtraLightItalic.ttf"; path = "../assets/fonts/KantumruyPro-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F8556A5ACD2E4AF29AF5F684 /* KantumruyPro-Italic.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-Italic.ttf"; path = "../assets/fonts/KantumruyPro-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		305F5174BA95469EBD06F12B /* KantumruyPro-Light.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-Light.ttf"; path = "../assets/fonts/KantumruyPro-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		22FF752197ED41C7877210C1 /* KantumruyPro-LightItalic.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-LightItalic.ttf"; path = "../assets/fonts/KantumruyPro-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		890514E529DC4A81905F349D /* KantumruyPro-Medium.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-Medium.ttf"; path = "../assets/fonts/KantumruyPro-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D7FA8D54E8D44557A73FABC7 /* KantumruyPro-MediumItalic.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-MediumItalic.ttf"; path = "../assets/fonts/KantumruyPro-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		02377EE7678D41FA9997F0E7 /* KantumruyPro-Regular.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-Regular.ttf"; path = "../assets/fonts/KantumruyPro-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2349A38ED41849DE9D8188F0 /* KantumruyPro-SemiBold.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-SemiBold.ttf"; path = "../assets/fonts/KantumruyPro-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ADC7CEC708DD4E2795BA0211 /* KantumruyPro-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-SemiBoldItalic.ttf"; path = "../assets/fonts/KantumruyPro-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A7B80EA236C3474DBB2F90DA /* KantumruyPro-Thin.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-Thin.ttf"; path = "../assets/fonts/KantumruyPro-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		60519A05A4A74CFA8CE01249 /* KantumruyPro-ThinItalic.ttf */ = {isa = PBXFileReference; name = "KantumruyPro-ThinItalic.ttf"; path = "../assets/fonts/KantumruyPro-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +150,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				507D72D6C02A4E379690F578 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +176,28 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		507D72D6C02A4E379690F578 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				99494481F6B54DE2B3EF8E1B /* KantumruyPro-Bold.ttf */,
+				88E1CC304F3E4B7D8C192988 /* KantumruyPro-BoldItalic.ttf */,
+				8529EEC60ED4415CAE6747AF /* KantumruyPro-ExtraLight.ttf */,
+				668400184579422183D62BFF /* KantumruyPro-ExtraLightItalic.ttf */,
+				F8556A5ACD2E4AF29AF5F684 /* KantumruyPro-Italic.ttf */,
+				305F5174BA95469EBD06F12B /* KantumruyPro-Light.ttf */,
+				22FF752197ED41C7877210C1 /* KantumruyPro-LightItalic.ttf */,
+				890514E529DC4A81905F349D /* KantumruyPro-Medium.ttf */,
+				D7FA8D54E8D44557A73FABC7 /* KantumruyPro-MediumItalic.ttf */,
+				02377EE7678D41FA9997F0E7 /* KantumruyPro-Regular.ttf */,
+				2349A38ED41849DE9D8188F0 /* KantumruyPro-SemiBold.ttf */,
+				ADC7CEC708DD4E2795BA0211 /* KantumruyPro-SemiBoldItalic.ttf */,
+				A7B80EA236C3474DBB2F90DA /* KantumruyPro-Thin.ttf */,
+				60519A05A4A74CFA8CE01249 /* KantumruyPro-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -243,6 +294,20 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				AC57DDE1800745B887BA6AD9 /* KantumruyPro-Bold.ttf in Resources */,
+				D3BD3494F29E4047BD4ADF61 /* KantumruyPro-BoldItalic.ttf in Resources */,
+				BF0A55B630054101BB1644D9 /* KantumruyPro-ExtraLight.ttf in Resources */,
+				6F3FD057908C49FFB93BCA9B /* KantumruyPro-ExtraLightItalic.ttf in Resources */,
+				DD85B6499401493A8ACC581A /* KantumruyPro-Italic.ttf in Resources */,
+				617A66760BB84807AAF3D164 /* KantumruyPro-Light.ttf in Resources */,
+				0A62457ED00E4A09995A6103 /* KantumruyPro-LightItalic.ttf in Resources */,
+				B40017C7FF5C4EE1B4ED0D8C /* KantumruyPro-Medium.ttf in Resources */,
+				442292A30F49415490F5AADF /* KantumruyPro-MediumItalic.ttf in Resources */,
+				4A8096993FA24DD1A36AAD45 /* KantumruyPro-Regular.ttf in Resources */,
+				2A7E5E9CAD4D44F586206FA9 /* KantumruyPro-SemiBold.ttf in Resources */,
+				C11C27EE0BAB4AC99397B591 /* KantumruyPro-SemiBoldItalic.ttf in Resources */,
+				931B7E8300F44935A900EC9F /* KantumruyPro-Thin.ttf in Resources */,
+				436D5FE09D77439CAE7FB27B /* KantumruyPro-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
