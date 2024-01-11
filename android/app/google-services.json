@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "489426406050",
+    "project_id": "admin-mobile-4f2a0",
+    "storage_bucket": "admin-mobile-4f2a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489426406050:android:8b0a32063c7a6a40e4e5fb",
+        "android_client_info": {
+          "package_name": "com.blacklava.adminmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj6zYtV96XVFXSGpxu79RDnq5h6s3Koh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
