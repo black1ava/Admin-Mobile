@@ -1,4 +1,4 @@
-package com.adminmobile
+package com.blacklava.adminmobile
 
 import android.os.Bundle
 import com.facebook.react.ReactActivity
@@ -13,7 +13,7 @@ class MainActivity : ReactActivity() {
    * Returns the name of the main component registered from JavaScript. This is used to schedule
    * rendering of the component.
    */
-  override fun getMainComponentName(): String = "AdminMobile"
+  override fun getMainComponentName(): String = "Admin Mobile"
 
   override fun onCreate(savedInstanceState: Bundle?) {
     SplashScreen.show(this, R.style.SplashScreenTheme, true)

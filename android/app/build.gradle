@@ -74,9 +74,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.adminmobile"
+    namespace "com.blacklava.adminmobile"
     defaultConfig {
-        applicationId "com.adminmobile"
+        applicationId "com.blacklava.adminmobile"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
