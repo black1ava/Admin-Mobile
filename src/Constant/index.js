@@ -5,3 +5,7 @@ export class Screen {
 export class Color {
   static LIGHT = '#FFFFFF';
 }
+
+export class Font {
+  static NAME = 'KantumruyPro';
+}

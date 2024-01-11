@@ -14,8 +14,13 @@ function AuthNavigation() {
         contentStyle: styles.container,
         headerShadowVisible: false,
         headerTitleAlign: 'center',
+        headerTitleStyle: styles.font,
       }}>
-      <Stack.Screen name={Screen.LOGIN} component={LoginScreen} />
+      <Stack.Screen
+        name={Screen.LOGIN}
+        component={LoginScreen}
+        options={{title: 'Login'}}
+      />
     </Stack.Navigator>
   );
 }
