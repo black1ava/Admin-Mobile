@@ -4,6 +4,7 @@ export class Screen {
 
 export class Color {
   static LIGHT = '#FFFFFF';
+  static PRIMARY = '#1E88E5';
 }
 
 export class Font {
