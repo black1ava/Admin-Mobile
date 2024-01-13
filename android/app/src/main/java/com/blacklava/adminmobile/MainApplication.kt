@@ -1,4 +1,5 @@
-package com.adminmobile
+package com.blacklava.adminmobile
+
 
 import android.app.Application
 import com.facebook.react.PackageList

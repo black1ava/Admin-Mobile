@@ -6,6 +6,7 @@ import {
   TouchableWithoutFeedback,
 } from 'react-native';
 import {widthToDP as wp} from 'react-native-responsive-screens';
+import normalize from 'react-native-normalize';
 
 import {styles} from './styles';
 import {AutoHeightFastImage, PhoneInput, Button} from '../../Component';

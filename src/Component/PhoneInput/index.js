@@ -1,5 +1,9 @@
 import React from 'react';
+<<<<<<< HEAD
 import {View, TextInput, Text} from 'react-native';
+=======
+import {View, Text, TextInput} from 'react-native';
+>>>>>>> 4aa1d5765aebfcacaba69b8935916bc9616dbf97
 import normalize from 'react-native-normalize';
 import PropTypes from 'prop-types';
 
