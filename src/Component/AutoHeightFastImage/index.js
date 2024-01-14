@@ -6,9 +6,10 @@ import PropTypes from 'prop-types';
 const propTypes = {
   source: PropTypes.oneOfType([PropTypes.number, PropTypes.object]),
   width: PropTypes.number,
+  style: PropTypes.object,
 };
 
-function AutoHeightFastImage({source, width}) {
+function AutoHeightFastImage({source, width, style}) {
   const [uri, setUri] = useState('');
   const [dimension, setDimension] = useState({
     width: 1,
@@ -31,7 +32,11 @@ function AutoHeightFastImage({source, width}) {
     !!uri && (
       <FastImage
         source={{uri}}
-        style={{width, height: (width * dimension.height) / dimension.width}}
+        style={{
+          width,
+          height: (width * dimension.height) / dimension.width,
+          ...style,
+        }}
       />
     )
   );

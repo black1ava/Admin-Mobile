@@ -26,6 +26,7 @@ function PhoneInput({placeholder, value, onChangeValue}) {
         placeholder={placeholder}
         value={value}
         onChangeText={onChangeValue}
+        keyboardType="phone-pad"
       />
     </View>
   );
