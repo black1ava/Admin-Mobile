@@ -12,7 +12,20 @@
           "package_name": "com.blacklava.adminmobile"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "489426406050-srcbpra8leak52h8ddk5v8ot0ddae5rj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blacklava.adminmobile",
+            "certificate_hash": "e142d653a3d078aca45c1fff58a1f4e00744b7c8"
+          }
+        },
+        {
+          "client_id": "489426406050-p7mtr9l4itjbmjbbkai69odhio99f74i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDj6zYtV96XVFXSGpxu79RDnq5h6s3Koh0"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489426406050-p7mtr9l4itjbmjbbkai69odhio99f74i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
