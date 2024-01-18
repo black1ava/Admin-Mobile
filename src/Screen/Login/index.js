@@ -4,10 +4,12 @@ import {
   Keyboard,
   KeyboardAvoidingView,
   TouchableWithoutFeedback,
+  Text,
 } from 'react-native';
 import {widthToDP as wp} from 'react-native-responsive-screens';
 import {useDispatch} from 'react-redux';
 import auth from '@react-native-firebase/auth';
+import {GoogleSignin as RNGoogleSignIn} from '@react-native-google-signin/google-signin';
 
 import {styles} from './styles';
 import {
@@ -16,11 +18,12 @@ import {
   Button,
   BottomSheet,
   OTP,
+  GoogleSignin,
   Alert,
 } from '../../Component';
 import {AuthActions} from '../../Store/Action';
 import {User} from '../../Model';
-import {useUser} from '../../Hook';
+import {GOOGLE_WEB_CLIENT_ID} from '../../Constant';
 
 function Login() {
   const [phone, setPhone] = useState('');
@@ -32,6 +35,7 @@ function Login() {
   const otpRef = useRef(null);
   const [alert, setAlert] = useState(false);
   const [verifyLoading, setVerifyLoading] = useState(false);
+  const [googleLoading, setGoogleLoading] = useState();
 
   const handlePhoneChange = useCallback(function (value) {
     setPhone(value);
@@ -120,7 +124,7 @@ function Login() {
   );
 
   const onAuthStateChanged = useCallback(
-    function (user) {
+    async function (user) {
       if (user) {
         const data = new User(
           user.uid,
@@ -130,14 +134,45 @@ function Login() {
         );
 
         dispatch(AuthActions.storeUser(data));
+        await auth().signOut();
+        handleOtpIndexChange();
       }
     },
-    [dispatch],
+    [dispatch, handleOtpIndexChange],
   );
 
   useEffect(function () {
     const subscriber = auth().onAuthStateChanged(onAuthStateChanged);
     return subscriber;
+  }, []);
+
+  RNGoogleSignIn.configure({
+    webClientId: GOOGLE_WEB_CLIENT_ID,
+  });
+
+  const handleGoogleSignInPress = useCallback(
+    async function () {
+      handleGoogleLoadingToggle();
+      try {
+        await RNGoogleSignIn.hasPlayServices({
+          showPlayServicesUpdateDialog: true,
+        });
+        const {idToken} = await RNGoogleSignIn.signIn();
+        const googleCredential = auth.GoogleAuthProvider.credential(idToken);
+        return auth().signInWithCredential(googleCredential);
+      } catch (error) {
+        console.error('error', error);
+      } finally {
+        handleGoogleLoadingToggle();
+      }
+    },
+    [handleGoogleLoadingToggle],
+  );
+
+  const handleGoogleLoadingToggle = useCallback(function () {
+    setGoogleLoading(function (state) {
+      return !state;
+    });
   }, []);
 
   return (
@@ -157,6 +192,11 @@ function Login() {
             title="Login"
             onPress={handleLogin}
             loading={signInPhoneNumberLoading}
+          />
+          <Text style={styles.or}>OR</Text>
+          <GoogleSignin
+            onPress={handleGoogleSignInPress}
+            loading={googleLoading}
           />
           <Alert
             visible={alert}

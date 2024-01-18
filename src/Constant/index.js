@@ -16,3 +16,6 @@ export class Font {
 export class UserType {
   static STORE_USER = 'STORE_USER';
 }
+
+export const GOOGLE_WEB_CLIENT_ID =
+  '489426406050-p7mtr9l4itjbmjbbkai69odhio99f74i.apps.googleusercontent.com';

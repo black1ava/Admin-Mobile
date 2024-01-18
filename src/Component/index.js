@@ -5,6 +5,7 @@ import BottomSheet from './BottomSheet';
 import OTP from './OTP';
 import Modal from './Modal';
 import Alert from './Alert';
+import GoogleSignin from './GoogleSignin';
 
 export {
   AutoHeightFastImage,
@@ -14,4 +15,5 @@ export {
   OTP,
   Modal,
   Alert,
+  GoogleSignin,
 };
